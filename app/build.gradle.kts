@@ -7,6 +7,16 @@ android {
     namespace = "com.example.s111480901"
     compileSdk = 34
 
+
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.13"
+    }
+
+
     defaultConfig {
         applicationId = "com.example.s111480901"
         minSdk = 26

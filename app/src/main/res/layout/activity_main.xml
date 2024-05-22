@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/photo.jpg"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:foreground="@drawable/photo"
+        tools:layout_editor_absoluteX="77dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
